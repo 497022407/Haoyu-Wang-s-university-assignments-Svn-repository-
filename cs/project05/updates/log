@@ -1,0 +1,104 @@
+200826-111350 Modified: NzhlMGVlYzQxM2I0MDBlZGM0YzUwODRmNzRjOTE3ZGUzNjIwMmIwYSAgLi91cGRhdGVzL3Byb2pl
+Y3QwNS0yMDIwMDgxNC0xMDE2MzMuemlwCjE1MTRmYmRlNDlhMGI0YzAyYjMyNGIzODlkNGE4MTE2
+ZGZhODQzYzIgIC4vZ2VuZXJpYy91cGRhdGVzL3VwZGF0ZXIuYmFzaAowYzY4MjMwMWFkNWJmMjMy
+YWNhZmM2NDQwNzUwMDFmNWZlNGZhNjYwICAuL2dlbmVyaWMvdXBkYXRlcy9pbnN0YWxsZXIuYmFz
+aApkNTQ5ZTkwYTA2NTE3NzQ5NTA2ZDJjMmY4YTU4Mzk3YmFlNzQ1Mjg5ICAuL2dlbmVyaWMvTWFr
+ZWZpbGUK
+200826-111350 make install
+200826-111350 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200826-111350 updater:  Directory: ./originals
+200826-111350 updater:  Directory: ./bin
+200826-111350 updater:  Creating: ./ComputerAdd.tst
+200826-111350 updater:  Creating: ./ComputerAdd-external.cmp
+200826-111350 updater:  Creating: ./ComputerRect-external.tst
+200826-111350 updater:  Creating: ./Rect.hack
+200826-111350 updater:  Creating: updates/Makefile
+200826-111350 updater:  Creating: ./ComputerMax.tst
+200826-111350 updater:  Creating: ./originals/Computer.hdl
+200826-111350 updater:  Creating: ./originals/Memory.hdl
+200826-111350 updater:  Creating: ./originals/CPU.hdl
+200826-111350 updater:  Creating: ./ComputerMax-external.tst
+200826-111350 updater:  Creating: ./bin/run-tests
+200826-111350 updater:  Creating: ./ComputerMax.cmp
+200826-111350 updater:  Creating: ./CPU-external.tst
+200826-111350 updater:  Creating: ./ComputerAdd-external.tst
+200826-111350 updater:  Creating: ./Memoryx.tst
+200826-111350 updater:  Creating: ./CPU.cmp
+200826-111350 updater:  Creating: ./Max.hack
+200826-111350 updater:  Creating: ./Add.hack
+200826-111350 updater:  Creating: ./CPU-external.cmp
+200826-111350 updater:  Creating: ./ComputerRect.tst
+200826-111350 updater:  Creating: ./ComputerRect.cmp
+200826-111350 updater:  Creating: ./ComputerRect-external.cmp
+200826-111350 updater:  Creating: ./ComputerMax-external.cmp
+200826-111350 updater:  Creating: ./Memory.cmp
+200826-111350 updater:  Creating: ./ComputerAdd.cmp
+200826-111350 updater:  Creating: ./Memory.tst
+200826-111350 updater:  Creating: ./CPU.tst
+200826-111350 updater:  Creating: ./Memoryx.cmp
+200826-111350 updater:  Made Add.hack executable
+200826-111350 updater:  Made Max.hack executable
+200826-111350 updater:  Made Rect.hack executable
+200826-111350 updater:  Made bin/run-tests executable
+200826-111350 updater:  Creating: Computer.hdl
+200826-111350 updater:  Creating: Memory.hdl
+200826-111350 updater:  Creating: CPU.hdl
+200826-111350 updater:  Updating: updates/README
+200826-111350 updater:  Update installed
+200826-111355 make 
+200826-111355 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200826-112330 make 
+200826-112330 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200826-112340 make 
+200826-112340 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200826-115039 Modified: MTQxNTA2MTg1ODc1YzZjNjk5YjIxNTU2NjU5Yjk3OGRhYmI2ZjhkMCAgLi9NZW1vcnkuaGRsCg==
+200826-115039 make 
+200826-115039 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200826-115612 Modified: ZjU4YTg1NGFlYTJhN2M2MDZlNTI4MTAwZTk2OGUzODM4MzA0MTkxNSAgLi9NZW1vcnkuaGRsCg==
+200826-115612 make 
+200826-115612 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200826-122231 Modified: NTYyYzlmNmUxOWY5MzRjYTgzZGE4ZjVlZmFlNjY1YmIyMjI5MTlmNyAgLi9NZW1vcnkuaGRsCjQw
+ZWE0MmVhMGRhODEyNWM1MjU2ZDk3ZDBlZDNlNTdkOWQ4ZmE1YmEgIC4vQ1BVLmhkbAo=
+200826-122231 make 
+200826-122231 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200826-122330 Modified: Mjg4NjVjMGM1Njc2YmIxZDU3Nzk1NTk1YjVmNDUyMDI4MjE3OTk2ZSAgLi9DUFUuaGRsCg==
+200826-122330 make 
+200826-122330 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200826-122658 Modified: Y2ZkNzExYWJjZDVkNWY3YmRjZWVkODUwN2Y1ZjRiYTcyNTNmYWFjMSAgLi9NZW1vcnkuaGRsCg==
+200826-122658 make 
+200826-122658 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200826-145650 Modified: YWYyMDNhNDJiNzg5MDgzMTM5ZTNhZTE0MDcwNTlhZjcxOTQ0MjlhYSAgLi9NZW1vcnkuaGRsCg==
+200826-145650 make 
+200826-145650 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200826-155113 Modified: ZGRkNjJiMjA0MWRkYzFiZDZiMzNkMGJmNjcxNmJlZmRhZDJkZWFmNiAgLi9Db21wdXRlci5oZGwK
+OTZhYjlhMzRlOGZjYWRlYmRjMGRiZjU3MTk0OGFjNmNlMmI1NjYxMCAgLi9NZW1vcnkub3V0CmEz
+YWQ5MTY2ODg5OTNlNjMwYWFkMWFhMWVjOTExMGY2ZTA0ZGJkNTQgIC4vTWVtb3J5LmhkbAo=
+200826-155113 make 
+200826-155113 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200827-091345 Modified: YzdjMDAwZTBiOGEwNTIzYjE0NWIwOTkwNTNhNWViMzBkZGI4ZWU4MiAgLi9NZW1vcnkub3V0CmE1
+N2FmNjMzN2E1MWZmZmQ5YzMyNzE1OWEzYmZkN2NiOGQ2NzE5NzEgIC4vQ1BVLmhkbAo=
+200827-091345 make 
+200827-091345 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200827-221546 Modified: ZGY1ZWNhZDM0NzA2MGNmZmI3NjE4MjMwNmE1MDBkNGY0MTFiYjFhMyAgLi9DUFUuaGRsCg==
+200827-221546 make 
+200827-221546 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200827-222006 Modified: NWY4YWFlMWM1OTM5YmNjOWY3NDI3ZmQ1MWY1NmVhODE0ZmViMDQ3ZSAgLi9DUFUuaGRsCg==
+200827-222006 make 
+200827-222006 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200827-222459 Modified: YzQ0NDI3YjEwMmM1MWU1MDk5N2Y1YTE3ODk4Yjc5MWUzMWQzZGMwOCAgLi9DUFUuaGRsCg==
+200827-222459 make 
+200827-222459 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200827-224019 Modified: NmYzZjdmOGI4MzAxZGFmODVjYjY3YjhiZjg3NDZhMWViNTM0YjdjNSAgLi9DUFUuaGRsCg==
+200827-224019 make 
+200827-224019 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200827-230523 Modified: OTFiZDk0YWU0M2Q1OGI3ZmQzNGMxZGY4ZDgzNDFmOGRlMmY2NzRhZiAgLi9DUFUuaGRsCg==
+200827-230523 make 
+200827-230523 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200827-230842 Modified: OTBjZjE0NGI1OGIzM2JkNjUyMWM4ODAzYjkyNzE0MWFiMDYwYmY1MyAgLi9DUFUuaGRsCg==
+200827-230842 make 
+200827-230842 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200827-231013 make 
+200827-231013 SVN user: a1785394, repository path: 2020/s2/cs/project05
+200827-232010 Modified: ODFiZTU4ZDE5YmY5OTFhNTcwMDI0Njc3ODA1N2I5YjgyNTk4YzZmZiAgLi9Db21wdXRlci5oZGwK
+200827-232010 make 
+200827-232010 SVN user: a1785394, repository path: 2020/s2/cs/project05

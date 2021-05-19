@@ -1,0 +1,261 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/02/ALU.hdl
+
+/**
+ * The ALU (Arithmetic Logic Unit).
+ * Computes one of the following functions:
+ * x+y, x-y, y-x, 0, 1, -1, x, y, -x, -y, !x, !y,
+ * x+1, y+1, x-1, y-1, x&y, x|y on two 16-bit inputs, 
+ * according to 6 input bits denoted zx,nx,zy,ny,f,no.
+ * In addition, the ALU computes two 1-bit outputs:
+ * if the ALU output == 0, zr is set to 1; otherwise zr is set to 0;
+ * if the ALU output < 0, ng is set to 1; otherwise ng is set to 0.
+ */
+
+// Implementation: the ALU logic manipulates the x and y inputs
+// and operates on the resulting values, as follows:
+// if (zx == 1) set x = 0        // 16-bit constant
+// if (nx == 1) set x = !x       // bitwise not
+// if (zy == 1) set y = 0        // 16-bit constant
+// if (ny == 1) set y = !y       // bitwise not
+// if (f == 1)  set out = x + y  // integer 2's complement addition
+// if (f == 0)  set out = x & y  // bitwise and
+// if (no == 1) set out = !out   // bitwise not
+// if (out == 0) set zr = 1
+// if (out < 0) set ng = 1
+
+CHIP ALU {
+    IN  
+        x[16], y[16],  // 16-bit inputs        
+        zx, // zero the x input?
+        nx, // negate the x input?
+        zy, // zero the y input?
+        ny, // negate the y input?
+        f,  // compute out = x + y (if 1) or x & y (if 0)
+        no; // negate the out output?
+
+    OUT 
+        out[16], // 16-bit output
+        zr, // 1 if (out == 0), 0 otherwise
+        ng; // 1 if (out < 0),  0 otherwise
+
+    PARTS:
+   // Put you code here:
+   Mux16(a[0]=x[0],b[0]=false,sel=zx,out[0]=outzx0,
+        a[1]=x[1],b[1]=false,sel=zx,out[1]=outzx1,
+        a[2]=x[2],b[2]=false,sel=zx,out[2]=outzx2,
+        a[3]=x[3],b[3]=false,sel=zx,out[3]=outzx3,
+        a[4]=x[4],b[4]=false,sel=zx,out[4]=outzx4,
+        a[5]=x[5],b[5]=false,sel=zx,out[5]=outzx5,
+        a[6]=x[6],b[6]=false,sel=zx,out[6]=outzx6,
+        a[7]=x[7],b[7]=false,sel=zx,out[7]=outzx7,
+        a[8]=x[8],b[8]=false,sel=zx,out[8]=outzx8,
+        a[9]=x[9],b[9]=false,sel=zx,out[9]=outzx9,
+        a[10]=x[10],b[10]=false,sel=zx,out[10]=outzx10,
+        a[11]=x[11],b[11]=false,sel=zx,out[11]=outzx11,
+        a[12]=x[12],b[12]=false,sel=zx,out[12]=outzx12,
+        a[13]=x[13],b[13]=false,sel=zx,out[13]=outzx13,
+        a[14]=x[14],b[14]=false,sel=zx,out[14]=outzx14,
+        a[15]=x[15],b[15]=false,sel=zx,out[15]=outzx15);
+
+    Mux16(a[0]=y[0],b[0]=false,sel=zy,out[0]=outzy0,
+        a[1]=y[1],b[1]=false,sel=zy,out[1]=outzy1,
+        a[2]=y[2],b[2]=false,sel=zy,out[2]=outzy2,
+        a[3]=y[3],b[3]=false,sel=zy,out[3]=outzy3,
+        a[4]=y[4],b[4]=false,sel=zy,out[4]=outzy4,
+        a[5]=y[5],b[5]=false,sel=zy,out[5]=outzy5,
+        a[6]=y[6],b[6]=false,sel=zy,out[6]=outzy6,
+        a[7]=y[7],b[7]=false,sel=zy,out[7]=outzy7,
+        a[8]=y[8],b[8]=false,sel=zy,out[8]=outzy8,
+        a[9]=y[9],b[9]=false,sel=zy,out[9]=outzy9,
+        a[10]=y[10],b[10]=false,sel=zy,out[10]=outzy10,
+        a[11]=y[11],b[11]=false,sel=zy,out[11]=outzy11,
+        a[12]=y[12],b[12]=false,sel=zy,out[12]=outzy12,
+        a[13]=y[13],b[13]=false,sel=zy,out[13]=outzy13,
+        a[14]=y[14],b[14]=false,sel=zy,out[14]=outzy14,
+        a[15]=y[15],b[15]=false,sel=zy,out[15]=outzy15);
+
+
+
+    Not16(in[0]=outzx0,out[0]=outNx0,
+        in[1]=outzx1,out[1]=outNx1,
+        in[2]=outzx2,out[2]=outNx2,
+        in[3]=outzx3,out[3]=outNx3,
+        in[4]=outzx4,out[4]=outNx4,
+        in[5]=outzx5,out[5]=outNx5,
+        in[6]=outzx6,out[6]=outNx6,
+        in[7]=outzx7,out[7]=outNx7,
+        in[8]=outzx8,out[8]=outNx8,
+        in[9]=outzx9,out[9]=outNx9,
+        in[10]=outzx10,out[10]=outNx10,
+        in[11]=outzx11,out[11]=outNx11,
+        in[12]=outzx12,out[12]=outNx12,
+        in[13]=outzx13,out[13]=outNx13,
+        in[14]=outzx14,out[14]=outNx14,
+        in[15]=outzx15,out[15]=outNx15);
+
+    Not16(in[0]=outzy0,out[0]=outNy0,
+        in[1]=outzy1,out[1]=outNy1,
+        in[2]=outzy2,out[2]=outNy2,
+        in[3]=outzy3,out[3]=outNy3,
+        in[4]=outzy4,out[4]=outNy4,
+        in[5]=outzy5,out[5]=outNy5,
+        in[6]=outzy6,out[6]=outNy6,
+        in[7]=outzy7,out[7]=outNy7,
+        in[8]=outzy8,out[8]=outNy8,
+        in[9]=outzy9,out[9]=outNy9,
+        in[10]=outzy10,out[10]=outNy10,
+        in[11]=outzy11,out[11]=outNy11,
+        in[12]=outzy12,out[12]=outNy12,
+        in[13]=outzy13,out[13]=outNy13,
+        in[14]=outzy14,out[14]=outNy14,
+        in[15]=outzy15,out[15]=outNy15);
+
+    Mux16(a[0]=outzx0,b[0]=outNx0,sel=nx,out[0]=outnx0,
+        a[1]=outzx1,b[1]=outNx1,sel=nx,out[1]=outnx1,
+        a[2]=outzx2,b[2]=outNx2,sel=nx,out[2]=outnx2,
+        a[3]=outzx3,b[3]=outNx3,sel=nx,out[3]=outnx3,
+        a[4]=outzx4,b[4]=outNx4,sel=nx,out[4]=outnx4,
+        a[5]=outzx5,b[5]=outNx5,sel=nx,out[5]=outnx5,
+        a[6]=outzx6,b[6]=outNx6,sel=nx,out[6]=outnx6,
+        a[7]=outzx7,b[7]=outNx7,sel=nx,out[7]=outnx7,
+        a[8]=outzx8,b[8]=outNx8,sel=nx,out[8]=outnx8,
+        a[9]=outzx9,b[9]=outNx9,sel=nx,out[9]=outnx9,
+        a[10]=outzx10,b[10]=outNx10,sel=nx,out[10]=outnx10,
+        a[11]=outzx11,b[11]=outNx11,sel=nx,out[11]=outnx11,
+        a[12]=outzx12,b[12]=outNx12,sel=nx,out[12]=outnx12,
+        a[13]=outzx13,b[13]=outNx13,sel=nx,out[13]=outnx13,
+        a[14]=outzx14,b[14]=outNx14,sel=nx,out[14]=outnx14,
+        a[15]=outzx15,b[15]=outNx15,sel=nx,out[15]=outnx15);
+
+    Mux16(a[0]=outzy0,b[0]=outNy0,sel=ny,out[0]=outny0,
+        a[1]=outzy1,b[1]=outNy1,sel=ny,out[1]=outny1,
+        a[2]=outzy2,b[2]=outNy2,sel=ny,out[2]=outny2,
+        a[3]=outzy3,b[3]=outNy3,sel=ny,out[3]=outny3,
+        a[4]=outzy4,b[4]=outNy4,sel=ny,out[4]=outny4,
+        a[5]=outzy5,b[5]=outNy5,sel=ny,out[5]=outny5,
+        a[6]=outzy6,b[6]=outNy6,sel=ny,out[6]=outny6,
+        a[7]=outzy7,b[7]=outNy7,sel=ny,out[7]=outny7,
+        a[8]=outzy8,b[8]=outNy8,sel=ny,out[8]=outny8,
+        a[9]=outzy9,b[9]=outNy9,sel=ny,out[9]=outny9,
+        a[10]=outzy10,b[10]=outNy10,sel=ny,out[10]=outny10,
+        a[11]=outzy11,b[11]=outNy11,sel=ny,out[11]=outny11,
+        a[12]=outzy12,b[12]=outNy12,sel=ny,out[12]=outny12,
+        a[13]=outzy13,b[13]=outNy13,sel=ny,out[13]=outny13,
+        a[14]=outzy14,b[14]=outNy14,sel=ny,out[14]=outny14,
+        a[15]=outzy15,b[15]=outNy15,sel=ny,out[15]=outny15);
+
+
+    Add16(a[0]=outnx0,b[0]=outny0,out[0]=outadd0,
+        a[1]=outnx1,b[1]=outny1,out[1]=outadd1,
+        a[2]=outnx2,b[2]=outny2,out[2]=outadd2,
+        a[3]=outnx3,b[3]=outny3,out[3]=outadd3,
+        a[4]=outnx4,b[4]=outny4,out[4]=outadd4,
+        a[5]=outnx5,b[5]=outny5,out[5]=outadd5,
+        a[6]=outnx6,b[6]=outny6,out[6]=outadd6,
+        a[7]=outnx7,b[7]=outny7,out[7]=outadd7,
+        a[8]=outnx8,b[8]=outny8,out[8]=outadd8,
+        a[9]=outnx9,b[9]=outny9,out[9]=outadd9,
+        a[10]=outnx10,b[10]=outny10,out[10]=outadd10,
+        a[11]=outnx11,b[11]=outny11,out[11]=outadd11,
+        a[12]=outnx12,b[12]=outny12,out[12]=outadd12,
+        a[13]=outnx13,b[13]=outny13,out[13]=outadd13,
+        a[14]=outnx14,b[14]=outny14,out[14]=outadd14,
+        a[15]=outnx15,b[15]=outny15,out[15]=outadd15);
+
+    And16(a[0]=outnx0,b[0]=outny0,out[0]=outand0,
+        a[1]=outnx1,b[1]=outny1,out[1]=outand1,
+        a[2]=outnx2,b[2]=outny2,out[2]=outand2,
+        a[3]=outnx3,b[3]=outny3,out[3]=outand3,
+        a[4]=outnx4,b[4]=outny4,out[4]=outand4,
+        a[5]=outnx5,b[5]=outny5,out[5]=outand5,
+        a[6]=outnx6,b[6]=outny6,out[6]=outand6,
+        a[7]=outnx7,b[7]=outny7,out[7]=outand7,
+        a[8]=outnx8,b[8]=outny8,out[8]=outand8,
+        a[9]=outnx9,b[9]=outny9,out[9]=outand9,
+        a[10]=outnx10,b[10]=outny10,out[10]=outand10,
+        a[11]=outnx11,b[11]=outny11,out[11]=outand11,
+        a[12]=outnx12,b[12]=outny12,out[12]=outand12,
+        a[13]=outnx13,b[13]=outny13,out[13]=outand13,
+        a[14]=outnx14,b[14]=outny14,out[14]=outand14,
+        a[15]=outnx15,b[15]=outny15,out[15]=outand15);
+
+    Mux16(a[0]=outand0,b[0]=outadd0,sel=f,out[0]=outf0,
+        a[1]=outand1,b[1]=outadd1,sel=f,out[1]=outf1,
+        a[2]=outand2,b[2]=outadd2,sel=f,out[2]=outf2,
+        a[3]=outand3,b[3]=outadd3,sel=f,out[3]=outf3,
+        a[4]=outand4,b[4]=outadd4,sel=f,out[4]=outf4,
+        a[5]=outand5,b[5]=outadd5,sel=f,out[5]=outf5,
+        a[6]=outand6,b[6]=outadd6,sel=f,out[6]=outf6,
+        a[7]=outand7,b[7]=outadd7,sel=f,out[7]=outf7,
+        a[8]=outand8,b[8]=outadd8,sel=f,out[8]=outf8,
+        a[9]=outand9,b[9]=outadd9,sel=f,out[9]=outf9,
+        a[10]=outand10,b[10]=outadd10,sel=f,out[10]=outf10,
+        a[11]=outand11,b[11]=outadd11,sel=f,out[11]=outf11,
+        a[12]=outand12,b[12]=outadd12,sel=f,out[12]=outf12,
+        a[13]=outand13,b[13]=outadd13,sel=f,out[13]=outf13,
+        a[14]=outand14,b[14]=outadd14,sel=f,out[14]=outf14,
+        a[15]=outand15,b[15]=outadd15,sel=f,out[15]=outf15);
+
+
+    Not16(in[0]=outf0,out[0]=outN0,
+        in[1]=outf1,out[1]=outN1,
+        in[2]=outf2,out[2]=outN2,
+        in[3]=outf3,out[3]=outN3,
+        in[4]=outf4,out[4]=outN4,
+        in[5]=outf5,out[5]=outN5,
+        in[6]=outf6,out[6]=outN6,
+        in[7]=outf7,out[7]=outN7,
+        in[8]=outf8,out[8]=outN8,
+        in[9]=outf9,out[9]=outN9,
+        in[10]=outf10,out[10]=outN10,
+        in[11]=outf11,out[11]=outN11,
+        in[12]=outf12,out[12]=outN12,
+        in[13]=outf13,out[13]=outN13,
+        in[14]=outf14,out[14]=outN14,
+        in[15]=outf15,out[15]=outN15);
+
+    Mux16(a[0]=outf0,b[0]=outN0,sel=no,out[0]=out[0],out[0]=outno0,
+        a[1]=outf1,b[1]=outN1,sel=no,out[1]=out[1],out[1]=outno1,
+        a[2]=outf2,b[2]=outN2,sel=no,out[2]=out[2],out[2]=outno2,
+        a[3]=outf3,b[3]=outN3,sel=no,out[3]=out[3],out[3]=outno3,
+        a[4]=outf4,b[4]=outN4,sel=no,out[4]=out[4],out[4]=outno4,
+        a[5]=outf5,b[5]=outN5,sel=no,out[5]=out[5],out[5]=outno5,
+        a[6]=outf6,b[6]=outN6,sel=no,out[6]=out[6],out[14]=outno14,
+        a[7]=outf7,b[7]=outN7,sel=no,out[7]=out[7],out[6]=outno6,
+        a[8]=outf8,b[8]=outN8,sel=no,out[8]=out[8],out[7]=outno7,
+        a[9]=outf9,b[9]=outN9,sel=no,out[9]=out[9],out[8]=outno8,
+        a[10]=outf10,b[10]=outN10,sel=no,out[10]=out[10],out[9]=outno9,
+        a[11]=outf11,b[11]=outN11,sel=no,out[11]=out[11],out[10]=outno10,
+        a[12]=outf12,b[12]=outN12,sel=no,out[12]=out[12],out[11]=outno11,
+        a[13]=outf13,b[13]=outN13,sel=no,out[13]=out[13],out[12]=outno12,
+        a[14]=outf14,b[14]=outN14,sel=no,out[14]=out[14],out[13]=outno13,
+        a[15]=outf15,b[15]=outN15,sel=no,out[15]=out[15],out[15]=ng,out[15]=outno15);    
+
+
+    Or8Way(in[0]=outno0,out=outor0,
+        in[1]=outno1,
+        in[2]=outno2,
+        in[3]=outno3,
+        in[4]=outno4,
+        in[5]=outno5,
+        in[6]=outno6,
+        in[7]=outno7);
+
+    Or8Way(in[0]=outno8,out=outor1,
+        in[1]=outno9,
+        in[2]=outno10,
+        in[3]=outno11,
+        in[4]=outno12,
+        in[5]=outno13,
+        in[6]=outno14,
+        in[7]=outno15);
+
+    Or(a=outor0,b=outor1,out=outor);
+
+    Not(in=outor,out=zr);
+
+
+}

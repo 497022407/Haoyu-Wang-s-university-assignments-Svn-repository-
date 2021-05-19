@@ -1,0 +1,59 @@
+200809-210457 Modified: MTUxNGZiZGU0OWEwYjRjMDJiMzI0YjM4OWQ0YTgxMTZkZmE4NDNjMiAgLi9nZW5lcmljL3VwZGF0
+ZXMvdXBkYXRlci5iYXNoCjBjNjgyMzAxYWQ1YmYyMzJhY2FmYzY0NDA3NTAwMWY1ZmU0ZmE2NjAg
+IC4vZ2VuZXJpYy91cGRhdGVzL2luc3RhbGxlci5iYXNoCmQ1NDllOTBhMDY1MTc3NDk1MDZkMmMy
+ZjhhNTgzOTdiYWU3NDUyODkgIC4vZ2VuZXJpYy9NYWtlZmlsZQpiODQyMWNlOTVkNDFjMDBiYzEx
+ODhiZDQ1OGUxOWJmODk2NzA1NGE3ICAuL0FkZDE2LmhkbAo3M2YxMDI3NDExNjExZTgxZGMyNmU4
+NjJlYWVjM2JmMWI4OWQxYTVmICAuL0Z1bGxBZGRlci5oZGwKNjg0NTJmMjgyN2FmNjZhYzgxZTk5
+NjQ5NWYxY2NkMmI2ODQ1OTVhOCAgLi9IYWxmQWRkZXIuaGRsCg==
+200809-210457 make 
+200809-210457 SVN user: a1785394, repository path: 2020/s2/cs/project02
+200809-210457 Cannot find any zip files in updates/
+200809-210840 Modified: YjVmMTM3MTJjOWQ4NjU4ZTM1ZGNmNGEyNTliMDhiZjhhZWMwMzgzOCAgLi91cGRhdGVzL3Byb2pl
+Y3QwMi0yMDIwMDgwNi0xMDE1MDQuemlwCg==
+200809-210840 make install
+200809-210840 SVN user: a1785394, repository path: 2020/s2/cs/project02
+200809-210840 updater:  Directory: ./originals
+200809-210840 updater:  Directory: ./bin
+200809-210840 updater:  Creating: ./ALU-nostat.cmp
+200809-210840 updater:  Updating: updates/Makefile
+200809-210840 updater:  Creating: ./HalfAdder.cmp
+200809-210840 updater:  Creating: ./ALU.tst
+200809-210840 updater:  Creating: ./originals/Add16.hdl
+200809-210840 updater:  Creating: ./originals/Inc16.hdl
+200809-210840 updater:  Creating: ./originals/FullAdder.hdl
+200809-210840 updater:  Creating: ./originals/HalfAdder.hdl
+200809-210840 updater:  Creating: ./originals/ALU.hdl
+200809-210840 updater:  Creating: ./bin/run-tests
+200809-210840 updater:  Creating: ./Add16.tst
+200809-210840 updater:  Creating: ./Inc16.tst
+200809-210840 updater:  Creating: ./HalfAdder.tst
+200809-210840 updater:  Creating: ./ALU.cmp
+200809-210840 updater:  Creating: ./Add16.cmp
+200809-210840 updater:  Creating: ./FullAdder.cmp
+200809-210840 updater:  Creating: ./Inc16.cmp
+200809-210840 updater:  Creating: ./ALU-nostat.tst
+200809-210840 updater:  Creating: ./FullAdder.tst
+200809-210840 updater:  Made bin/run-tests executable
+200809-210840 updater:  Creating: Inc16.hdl
+200809-210840 updater:  Creating: ALU.hdl
+200809-210840 updater:  Updating: updates/README
+200809-210840 updater:  Update installed
+200809-211659 make install
+200809-211659 SVN user: a1785394, repository path: 2020/s2/cs/project02
+200810-101451 Modified: MGM2ODIzMDFhZDViZjIzMmFjYWZjNjQ0MDc1MDAxZjVmZTRmYTY2MCAgLi91cGRhdGVzL2luc3Rh
+bGxlci5iYXNoCjM2YTY5OTNjOGRmMzVlMTM3YzNmMzMwMWNhZTM0MmMzNGMxZTVhZmUgIC4vQWRk
+MTYuaGRsCg==
+200810-101451 make 
+200810-101451 SVN user: a1785394, repository path: 2020/s2/cs/project02
+200810-102554 Modified: ZGJlZTUwNzMzODc5MDJlOTYyNzhiOTJkZDU4MmQyYzAxNTJiNjAxMiAgLi9JbmMxNi5oZGwK
+200810-102554 make 
+200810-102554 SVN user: a1785394, repository path: 2020/s2/cs/project02
+200810-102721 Modified: ZjQ3NThlNzc1NzY0YWI2YmU0NWQ1OTUzNzhiMzg2OGMwOTc4Y2U2YiAgLi9JbmMxNi5oZGwK
+200810-102721 make 
+200810-102721 SVN user: a1785394, repository path: 2020/s2/cs/project02
+200810-145747 Modified: ZGQ3NDIzNDE1NWU2MDBjYTE1ZDZkYTBlZmE2MmJkYWQxNzc3MWZkNSAgLi9BTFUuaGRsCg==
+200810-145747 make 
+200810-145747 SVN user: a1785394, repository path: 2020/s2/cs/project02
+200810-151303 Modified: ZmU0NDk3OWE2YTAwNmRkN2NjMGJlMWZhZjg4YzhhY2VhZDQxNzBkOSAgLi9BTFUuaGRsCg==
+200810-151303 make 
+200810-151303 SVN user: a1785394, repository path: 2020/s2/cs/project02

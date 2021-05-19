@@ -1,0 +1,252 @@
+200806-003209 Modified: ZGViZGJkNjVkMDhlMzdlYWVmMjc5OTJjMDcwZjlmNmM2NjZjOThjOCAgLi91cGRhdGVzL2luc3Rh
+bGxlci5iYXNoCjE1MTRmYmRlNDlhMGI0YzAyYjMyNGIzODlkNGE4MTE2ZGZhODQzYzIgIC4vZ2Vu
+ZXJpYy91cGRhdGVzL3VwZGF0ZXIuYmFzaAowYzY4MjMwMWFkNWJmMjMyYWNhZmM2NDQwNzUwMDFm
+NWZlNGZhNjYwICAuL2dlbmVyaWMvdXBkYXRlcy9pbnN0YWxsZXIuYmFzaApkNTQ5ZTkwYTA2NTE3
+NzQ5NTA2ZDJjMmY4YTU4Mzk3YmFlNzQ1Mjg5ICAuL2dlbmVyaWMvTWFrZWZpbGUK
+200806-003209 make 
+200806-003209 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-003209 Cannot find any zip files in updates/
+200806-003806 Modified: ZDhiMWE0MGRkNWI2YzRmYmY3ZDBkY2JlNmMzMzViZGU1ZTJiZTU5YSAgLi91cGRhdGVzL3Byb2pl
+Y3QwMS0yMDIwMDcyNC0xOTMyMjguemlwCg==
+200806-003806 make 
+200806-003806 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-003806 updater:  Directory: ./originals
+200806-003806 updater:  Directory: ./bin
+200806-003806 updater:  Creating: ./Not16.tst
+200806-003806 updater:  Creating: ./Not.tst
+200806-003806 updater:  Creating: ./Or16.cmp
+200806-003806 updater:  Creating: ./Mux16.cmp
+200806-003806 updater:  Creating: ./And16.tst
+200806-003806 updater:  Creating: ./Not16.cmp
+200806-003806 updater:  Updating: updates/Makefile
+200806-003806 updater:  Creating: ./DMux.tst
+200806-003806 updater:  Creating: ./And.tst
+200806-003806 updater:  Creating: ./DMux4Way.tst
+200806-003806 updater:  Creating: ./Or16.tst
+200806-003806 updater:  Creating: ./originals/Not.hdl
+200806-003806 updater:  Creating: ./originals/Mux16.hdl
+200806-003806 updater:  Creating: ./originals/Not16.hdl
+200806-003806 updater:  Creating: ./originals/Or.hdl
+200806-003806 updater:  Creating: ./originals/Or8Way.hdl
+200806-003806 updater:  Creating: ./originals/DMux4Way.hdl
+200806-003806 updater:  Creating: ./originals/DMux.hdl
+200806-003806 updater:  Creating: ./originals/Xor.hdl
+200806-003806 updater:  Creating: ./originals/And16.hdl
+200806-003806 updater:  Creating: ./originals/Mux8Way16.hdl
+200806-003806 updater:  Creating: ./originals/DMux8Way.hdl
+200806-003806 updater:  Creating: ./originals/Mux.hdl
+200806-003806 updater:  Creating: ./originals/Or16.hdl
+200806-003806 updater:  Creating: ./originals/And.hdl
+200806-003806 updater:  Creating: ./originals/Mux4Way16.hdl
+200806-003806 updater:  Creating: ./Or8Way.tst
+200806-003806 updater:  Creating: ./Xor.tst
+200806-003806 updater:  Creating: ./bin/run-tests
+200806-003806 updater:  Creating: ./Not.cmp
+200806-003806 updater:  Creating: ./Mux8Way16.cmp
+200806-003806 updater:  Creating: ./DMux.cmp
+200806-003806 updater:  Creating: ./Or.tst
+200806-003806 updater:  Creating: ./DMux8Way.tst
+200806-003806 updater:  Creating: ./Mux.cmp
+200806-003806 updater:  Creating: ./Mux4Way16.tst
+200806-003806 updater:  Creating: ./Mux4Way16.cmp
+200806-003806 updater:  Creating: ./Or8Way.cmp
+200806-003806 updater:  Creating: ./Mux8Way16.tst
+200806-003806 updater:  Creating: ./DMux8Way.cmp
+200806-003806 updater:  Creating: ./And16.cmp
+200806-003806 updater:  Creating: ./DMux4Way.cmp
+200806-003806 updater:  Creating: ./Xor.cmp
+200806-003806 updater:  Creating: ./And.cmp
+200806-003806 updater:  Creating: ./Mux.tst
+200806-003806 updater:  Creating: ./Or.cmp
+200806-003806 updater:  Creating: ./Mux16.tst
+200806-003806 updater:  Made bin/run-tests executable
+200806-003806 updater:  Creating: Not.hdl
+200806-003806 updater:  Creating: Mux16.hdl
+200806-003806 updater:  Creating: Not16.hdl
+200806-003806 updater:  Creating: Or.hdl
+200806-003806 updater:  Creating: Or8Way.hdl
+200806-003806 updater:  Creating: DMux4Way.hdl
+200806-003806 updater:  Creating: DMux.hdl
+200806-003806 updater:  Creating: Xor.hdl
+200806-003806 updater:  Creating: And16.hdl
+200806-003806 updater:  Creating: Mux8Way16.hdl
+200806-003806 updater:  Creating: DMux8Way.hdl
+200806-003806 updater:  Creating: Mux.hdl
+200806-003806 updater:  Creating: Or16.hdl
+200806-003806 updater:  Creating: And.hdl
+200806-003806 updater:  Creating: Mux4Way16.hdl
+200806-003806 updater:  Updating: updates/README
+200806-003806 updater:  Update installed
+200806-003955 make 
+200806-003955 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-175120 make 
+200806-175120 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-175120 updater:  Directory: ./originals
+200806-175120 updater:  Directory: ./bin
+200806-175120 updater:  Creating: ./Not16.tst
+200806-175120 updater:  Creating: ./Not.tst
+200806-175120 updater:  Creating: ./Or16.cmp
+200806-175120 updater:  Creating: ./Mux16.cmp
+200806-175120 updater:  Creating: ./And16.tst
+200806-175120 updater:  Creating: ./Not16.cmp
+200806-175120 updater:  Creating: updates/Makefile
+200806-175120 updater:  Creating: ./DMux.tst
+200806-175120 updater:  Creating: ./And.tst
+200806-175120 updater:  Creating: ./DMux4Way.tst
+200806-175120 updater:  Creating: ./Or16.tst
+200806-175120 updater:  Creating: ./originals/Not.hdl
+200806-175120 updater:  Creating: ./originals/Mux16.hdl
+200806-175120 updater:  Creating: ./originals/Not16.hdl
+200806-175120 updater:  Creating: ./originals/Or.hdl
+200806-175120 updater:  Creating: ./originals/Or8Way.hdl
+200806-175120 updater:  Creating: ./originals/DMux4Way.hdl
+200806-175120 updater:  Creating: ./originals/DMux.hdl
+200806-175120 updater:  Creating: ./originals/Xor.hdl
+200806-175120 updater:  Creating: ./originals/And16.hdl
+200806-175120 updater:  Creating: ./originals/Mux8Way16.hdl
+200806-175120 updater:  Creating: ./originals/DMux8Way.hdl
+200806-175120 updater:  Creating: ./originals/Mux.hdl
+200806-175120 updater:  Creating: ./originals/Or16.hdl
+200806-175120 updater:  Creating: ./originals/And.hdl
+200806-175120 updater:  Creating: ./originals/Mux4Way16.hdl
+200806-175120 updater:  Creating: ./Or8Way.tst
+200806-175120 updater:  Creating: ./Xor.tst
+200806-175120 updater:  Creating: ./bin/run-tests
+200806-175120 updater:  Creating: ./Not.cmp
+200806-175120 updater:  Creating: ./Mux8Way16.cmp
+200806-175120 updater:  Creating: ./DMux.cmp
+200806-175120 updater:  Creating: ./Or.tst
+200806-175120 updater:  Creating: ./DMux8Way.tst
+200806-175120 updater:  Creating: ./Mux.cmp
+200806-175120 updater:  Creating: ./Mux4Way16.tst
+200806-175120 updater:  Creating: ./Mux4Way16.cmp
+200806-175120 updater:  Creating: ./Or8Way.cmp
+200806-175120 updater:  Creating: ./Mux8Way16.tst
+200806-175120 updater:  Creating: ./DMux8Way.cmp
+200806-175120 updater:  Creating: ./And16.cmp
+200806-175120 updater:  Creating: ./DMux4Way.cmp
+200806-175120 updater:  Creating: ./Xor.cmp
+200806-175120 updater:  Creating: ./And.cmp
+200806-175120 updater:  Creating: ./Mux.tst
+200806-175120 updater:  Creating: ./Or.cmp
+200806-175120 updater:  Creating: ./Mux16.tst
+200806-175120 updater:  Made bin/run-tests executable
+200806-175120 updater:  Updating: updates/README
+200806-175120 updater:  Update installed
+200806-180253 Modified: NGIyMWIxNjcxYjUxODFiNjkxZjQ5MWM4NGRmNDk0ZDUzYWZlYTZmNSAgLi9Ob3QxNi5oZGwK
+200806-180253 make 
+200806-180253 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-180329 Modified: MzhmNDA1MTI3OThjZDk1MTU5MDIzNDI5YWMzZDBhY2VmNDc5MjdmZiAgLi9Ob3QxNi5oZGwK
+200806-180329 make 
+200806-180329 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-180442 Modified: MzAxNTdhYmU5YThkZTFmMWY0MDFkNDcyNjcxNzg2M2E4YjYzYWE0OSAgLi9Ob3QxNi5oZGwK
+200806-180442 make 
+200806-180442 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-180524 Modified: MWQ3N2FjYmUwOTBiZGU2YjA4NTViYTBhODJmZTk2YmE2NjY5Y2M3NCAgLi9Ob3QxNi5oZGwK
+200806-180524 make 
+200806-180524 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-180639 Modified: NjM0ZjhhN2YzM2JmOTlkZDY4OWJkMTcyNzJjM2RjNzdkOGMyMDUzYSAgLi9Ob3QxNi5oZGwK
+200806-180639 make 
+200806-180639 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-180652 Modified: ZGViOGMwYjE2OGNmYzgyZmVhNDIyODA3ZGYxMzBlZWY2MmE4ZTZjYSAgLi9Ob3QxNi5oZGwK
+200806-180652 make 
+200806-180652 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-180708 Modified: ODkxMzU0ZjdmYzA0NjkxMDNkMTVjZjJiNmZhYjYxZDBjNjcwNGIwNyAgLi9Ob3QxNi5oZGwK
+200806-180708 make 
+200806-180708 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-180739 Modified: MTAxNGE1Yzk0MGY2ODBlMDM0ZWY1NDY1NjBmZWE2MDAyYmY1YTNiNSAgLi9Ob3QxNi5oZGwK
+200806-180739 make 
+200806-180739 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-181051 Modified: YzBlMGJlMTQ0OTU5YzhiNjdkOGM3YmNjYTYzNzM0NjE0ODdjODk2ZCAgLi9Ob3QxNi5oZGwK
+200806-181051 make 
+200806-181051 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-181903 Modified: MzJlMDVkZmRiNGM4YWM2OTExZGQ1ODIzMDcxYzgwYzA4OWRiNDY3MyAgLi9Ob3QxNi5oZGwK
+200806-181903 make 
+200806-181903 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-182640 Modified: OTRjNzRmMDRhZTUxM2JlMWFkZDdlODU4MzAxYzY2NTdhODZjNDhmNyAgLi9Ob3QxNi5oZGwK
+200806-182640 make 
+200806-182640 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-183950 Modified: MzY1Zjc2N2Y4MGY5YWJlMzAyNjAwMGVmOGNlZjU3ZTVlZmVmODNmOSAgLi9Ob3QxNi5oZGwK
+200806-183950 make 
+200806-183950 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-184328 Modified: OWMzMzQyYjJkNzhhMWU5OTNiOTA1Y2FkMGVhNzE1NGFkNjg2MzE5ZCAgLi9BbmQxNi5oZGwK
+200806-184328 make 
+200806-184328 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-184716 Modified: OGExMTU3ZmMxYTZmZjFiOWMwYTc1YWFkMDBlNTg0YjMzODgyMGQ2OCAgLi9PcjE2LmhkbAo=
+200806-184716 make 
+200806-184716 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-185419 Modified: NGNiYjAxMmJlZjgwYjdkN2E2ZDEzOWFjMWZiOTcxYWEzZWFlNTdlOCAgLi9PcjhXYXkuaGRsCg==
+200806-185419 make 
+200806-185419 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-190756 Modified: NTUyY2EzOTMzN2MxNmQ1OGNiNmQ3YmNjZmFlMGIyODhjYjA4M2ZhNSAgLi9NdXguaGRsCg==
+200806-190756 make 
+200806-190756 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-190825 Modified: MjUxNWM5MGRmNDg2MzQ1OWQ2ZTJjNmQwMDg0MTJlYWUzYmFjYmViMCAgLi9NdXguaGRsCg==
+200806-190825 make 
+200806-190825 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200806-191916 Modified: ZDFmNzkyZTYzODgwYWViMzc4ODhmYjY5MWE4YWQyNjI1NTFiZjZlNyAgLi9ETXV4LmhkbAo=
+200806-191916 make 
+200806-191916 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-191141 Modified: ZDFmNzkyZTYzODgwYWViMzc4ODhmYjY5MWE4YWQyNjI1NTFiZjZlNyAgLi9ETXV4LmhkbAo=
+200807-191141 make 
+200807-191141 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-192229 Modified: MTI2MDhhN2ZkNWJhNGY2YWRjNDQ3YTdkY2JhNjIyNTI2MDY2MDA0NyAgLi9ETXV4LmhkbAo=
+200807-192229 make 
+200807-192229 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-210419 Modified: YjU5N2NjNDc2OGUwYzhmZjRjNDA4NjJlOGRkYmU5NGZmODc0NzllZCAgLi9NdXgxNi5oZGwK
+200807-210419 make 
+200807-210419 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-210919 Modified: ZjExMDNjMGNlYjkwMWU0NGM5M2VmMDE3MWM2ZGM2YWQzZThiNjc2MiAgLi9NdXgxNi5oZGwK
+200807-210919 make 
+200807-210919 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-211024 Modified: MWJmYmIxZmI4NjBhZGMxOWViNWVhMTY5MTM4OTQwYTUxYTg3ZGU0YSAgLi9NdXgxNi5oZGwK
+200807-211024 make 
+200807-211024 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-211052 Modified: NWQ0Y2Q4ZTU0ZGViYWM3MjFiOGQ2OGUwMzk2MTViZDEyOWE2ZjFkNSAgLi9NdXgxNi5oZGwK
+200807-211052 make 
+200807-211052 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-211152 make 
+200807-211152 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-211254 Modified: MTVlYmQ5ZjE2NTkzMTE0ODU2NzBiNjU4Njk0YTg2ODZlODA3OGFiYyAgLi9NdXgxNi5oZGwK
+200807-211254 make 
+200807-211254 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-222948 Modified: MTU3ZTdmYTQ5NGZjZDk4M2ZmNGM0ODA5NDNiYTg0N2I4ZjFmYzk0OSAgLi9NdXg0V2F5MTYub3V0
+CjIwMzAyYjk0MjM4YjE5NjE0YjFjY2M5NzU1MDkwZjBmYzQ4MGU0YzkgIC4vTXV4NFdheTE2Lmhk
+bAo=
+200807-222948 make 
+200807-222948 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-223748 Modified: Y2MwNzBhMzZjZWNiMTk3YTQyNjdlNzE0MTU0MDk3ZGQxOWY5YmYxNSAgLi9NdXg4V2F5MTYuaGRs
+Cg==
+200807-223748 make 
+200807-223748 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-223828 Modified: ZmFjMjQ0ZThhYTgzNGIzNjAxMGI0MWY4YTI4MjQwZWFiZWRmMjBjNCAgLi9NdXg4V2F5MTYuaGRs
+Cg==
+200807-223828 make 
+200807-223828 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-223900 Modified: NWYzZDhkM2FhZjMyZTU1YzA1OTQ5MjUzMjhkNWU2ODM4MWI0ZDNiOSAgLi9NdXg4V2F5MTYuaGRs
+Cg==
+200807-223900 make 
+200807-223900 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-225425 make 
+200807-225425 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-225432 make 
+200807-225432 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-230026 Modified: MDc1OTFmMDEyNGI2MTIxOTkwMjA1OGI5ZWUwMmNiODYwYjM1OTQ0NSAgLi9ETXV4NFdheS5oZGwK
+200807-230026 make 
+200807-230026 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-230132 Modified: ZTYzMTMxMmYwMzI4OWMyOWE3YmYwODFkYmZmNDI2MDg5MGM3NTdjNiAgLi9ETXV4NFdheS5oZGwK
+200807-230132 make 
+200807-230132 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-231214 Modified: NWJiYTFhMzZjNmZiYmUyMWJmNDg0ZDk4YzBkZmIxZDE3MzgzM2U2MyAgLi9ETXV4OFdheS5oZGwK
+MDJhNDdmNjdhNjJmZTFiNjhmY2QwY2Y3ZGFmNDFlMjZkMmY5YjM5MSAgLi9BbmQzV2F5LmhkbAo0
+ZmUzNjI3YjRmY2EyZmJkMTk1NzljZDQwODNkM2E5ZTZhZTkyNmNjICAuL0NISVAgTXV4IHsK
+200807-231214 make 
+200807-231214 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-231545 Modified: NTY4OTQ3ZmZjMGJkZWNmYThhNzk3ODZmZGZlNWViM2FiM2M1NmNkOSAgLi9ETXV4OFdheS5vdXQK
+NWNiYzI2MzZhM2NlNTA0MjA0NGM0MGYxYzFkZjI4NmYzZmI1MWExNyAgLi9ETXV4OFdheS5oZGwK
+200807-231545 make 
+200807-231545 SVN user: a1785394, repository path: 2020/s2/cs/project01
+200807-233422 Modified: NWM1Yjc2NTY0ZmM1YTVlN2VlODE2MzMxNDlhNjRiMWE1ODQ4NzBiYyAgLi9NdXg4V2F5MTYuaGRs
+Cg==
+200807-233422 make 
+200807-233422 SVN user: a1785394, repository path: 2020/s2/cs/project01

@@ -1,0 +1,124 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/01/Mux4Way16.hdl
+
+/**
+ * 4-way 16-bit multiplexor:
+ * out = a if sel == 00
+ *       b if sel == 01
+ *       c if sel == 10
+ *       d if sel == 11
+ */
+
+CHIP Mux4Way16 {
+    IN a[16], b[16], c[16], d[16], sel[2];
+    OUT out[16];
+
+    PARTS:
+    // Put your code here:
+
+	Not(in=sel[0],out=Nsel0);
+    Not(in=sel[1],out=Nsel1);
+
+    And(a=sel[0],b=sel[1],out=sel3);
+    And(a=Nsel1,b=sel[0],out=sel1);
+    And(a=Nsel0,b=sel[1],out=sel2);
+    And(a=Nsel0,b=Nsel1,out=sel0);
+
+    And(a=a[0],b=sel0,out=out0a);
+    And(a=b[0],b=sel1,out=out0b);
+    And(a=c[0],b=sel2,out=out0c);
+    And(a=d[0],b=sel3,out=out0d);
+    Or8Way(in[0]=out0a,in[1]=out0b,in[2]=out0c,in[3]=out0d,out=out[0]);
+
+    And(a=a[1],b=sel0,out=out1a);
+    And(a=b[1],b=sel1,out=out1b);
+    And(a=c[1],b=sel2,out=out1c);
+    And(a=d[1],b=sel3,out=out1d);
+    Or8Way(in[0]=out1a,in[1]=out1b,in[2]=out1c,in[3]=out1d,out=out[1]);
+
+    And(a=a[2],b=sel0,out=out2a);
+    And(a=b[2],b=sel1,out=out2b);
+    And(a=c[2],b=sel2,out=out2c);
+    And(a=d[2],b=sel3,out=out2d);
+    Or8Way(in[0]=out2a,in[1]=out2b,in[2]=out2c,in[3]=out2d,out=out[2]);
+
+    And(a=a[3],b=sel0,out=out3a);
+    And(a=b[3],b=sel1,out=out3b);
+    And(a=c[3],b=sel2,out=out3c);
+    And(a=d[3],b=sel3,out=out3d);
+    Or8Way(in[0]=out3a,in[1]=out3b,in[2]=out3c,in[3]=out3d,out=out[3]);
+
+    And(a=a[4],b=sel0,out=out4a);
+    And(a=b[4],b=sel1,out=out4b);
+    And(a=c[4],b=sel2,out=out4c);
+    And(a=d[4],b=sel3,out=out4d);
+    Or8Way(in[0]=out4a,in[1]=out4b,in[2]=out4c,in[3]=out4d,out=out[4]);
+
+    And(a=a[5],b=sel0,out=out5a);
+    And(a=b[5],b=sel1,out=out5b);
+    And(a=c[5],b=sel2,out=out5c);
+    And(a=d[5],b=sel3,out=out5d);
+    Or8Way(in[0]=out5a,in[1]=out5b,in[2]=out5c,in[3]=out5d,out=out[5]);
+
+    And(a=a[6],b=sel0,out=out6a);
+    And(a=b[6],b=sel1,out=out6b);
+    And(a=c[6],b=sel2,out=out6c);
+    And(a=d[6],b=sel3,out=out6d);
+    Or8Way(in[0]=out6a,in[1]=out6b,in[2]=out6c,in[3]=out6d,out=out[6]);
+
+    And(a=a[7],b=sel0,out=out7a);
+    And(a=b[7],b=sel1,out=out7b);
+    And(a=c[7],b=sel2,out=out7c);
+    And(a=d[7],b=sel3,out=out7d);
+    Or8Way(in[0]=out7a,in[1]=out7b,in[2]=out7c,in[3]=out7d,out=out[7]);
+
+    And(a=a[8],b=sel0,out=out8a);
+    And(a=b[8],b=sel1,out=out8b);
+    And(a=c[8],b=sel2,out=out8c);
+    And(a=d[8],b=sel3,out=out8d);
+    Or8Way(in[0]=out8a,in[1]=out8b,in[2]=out8c,in[3]=out8d,out=out[8]);
+
+    And(a=a[9],b=sel0,out=out9a);
+    And(a=b[9],b=sel1,out=out9b);
+    And(a=c[9],b=sel2,out=out9c);
+    And(a=d[9],b=sel3,out=out9d);
+    Or8Way(in[0]=out9a,in[1]=out9b,in[2]=out9c,in[3]=out9d,out=out[9]);
+
+    And(a=a[10],b=sel0,out=out10a);
+    And(a=b[10],b=sel1,out=out10b);
+    And(a=c[10],b=sel2,out=out10c);
+    And(a=d[10],b=sel3,out=out10d);
+    Or8Way(in[0]=out10a,in[1]=out10b,in[2]=out10c,in[3]=out10d,out=out[10]);
+
+    And(a=a[11],b=sel0,out=out11a);
+    And(a=b[11],b=sel1,out=out11b);
+    And(a=c[11],b=sel2,out=out11c);
+    And(a=d[11],b=sel3,out=out11d);
+    Or8Way(in[0]=out11a,in[1]=out11b,in[2]=out11c,in[3]=out11d,out=out[11]);
+
+    And(a=a[12],b=sel0,out=out12a);
+    And(a=b[12],b=sel1,out=out12b);
+    And(a=c[12],b=sel2,out=out12c);
+    And(a=d[12],b=sel3,out=out12d);
+    Or8Way(in[0]=out12a,in[1]=out12b,in[2]=out12c,in[3]=out12d,out=out[12]);
+
+    And(a=a[13],b=sel0,out=out13a);
+    And(a=b[13],b=sel1,out=out13b);
+    And(a=c[13],b=sel2,out=out13c);
+    And(a=d[13],b=sel3,out=out13d);
+    Or8Way(in[0]=out13a,in[1]=out13b,in[2]=out13c,in[3]=out13d,out=out[13]);
+
+    And(a=a[14],b=sel0,out=out14a);
+    And(a=b[14],b=sel1,out=out14b);
+    And(a=c[14],b=sel2,out=out14c);
+    And(a=d[14],b=sel3,out=out14d);
+    Or8Way(in[0]=out14a,in[1]=out14b,in[2]=out14c,in[3]=out14d,out=out[14]);
+
+    And(a=a[15],b=sel0,out=out15a);
+    And(a=b[15],b=sel1,out=out15b);
+    And(a=c[15],b=sel2,out=out15c);
+    And(a=d[15],b=sel3,out=out15d);
+    Or8Way(in[0]=out15a,in[1]=out15b,in[2]=out15c,in[3]=out15d,out=out[15]);
+}

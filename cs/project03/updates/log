@@ -1,0 +1,100 @@
+200818-192902 Modified: MTUxNGZiZGU0OWEwYjRjMDJiMzI0YjM4OWQ0YTgxMTZkZmE4NDNjMiAgLi9nZW5lcmljL3VwZGF0
+ZXMvdXBkYXRlci5iYXNoCjBjNjgyMzAxYWQ1YmYyMzJhY2FmYzY0NDA3NTAwMWY1ZmU0ZmE2NjAg
+IC4vZ2VuZXJpYy91cGRhdGVzL2luc3RhbGxlci5iYXNoCmQ1NDllOTBhMDY1MTc3NDk1MDZkMmMy
+ZjhhNTgzOTdiYWU3NDUyODkgIC4vZ2VuZXJpYy9NYWtlZmlsZQoyZGQyMGM2ZTc3MmNkNDczNDk4
+ZTgwZGY4NTY3YWY1Njc2MTllZGM2ICAuL3Byb2plY3QwMy0yMDIwMDgxNC0xMDE2MzAuemlwCg==
+200818-192902 make install
+200818-192902 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-192902 Cannot find any zip files in updates/
+200818-192913 make install
+200818-192913 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-192913 updater:  Directory: ./originals
+200818-192913 updater:  Directory: ./originals/b
+200818-192913 updater:  Directory: ./originals/a
+200818-192913 updater:  Directory: ./bin
+200818-192913 updater:  Directory: ./b
+200818-192913 updater:  Directory: ./a
+200818-192913 updater:  Updating: updates/Makefile
+200818-192913 updater:  Creating: ./originals/b/RAM4K.hdl
+200818-192913 updater:  Creating: ./originals/b/RAM16K.hdl
+200818-192913 updater:  Creating: ./originals/b/RAM512.hdl
+200818-192913 updater:  Creating: ./originals/a/Register.hdl
+200818-192913 updater:  Creating: ./originals/a/Bit.hdl
+200818-192913 updater:  Creating: ./originals/a/RAM8.hdl
+200818-192913 updater:  Creating: ./originals/a/RAM64.hdl
+200818-192913 updater:  Creating: ./originals/a/PC.hdl
+200818-192913 updater:  Creating: ./bin/run-tests
+200818-192913 updater:  Creating: ./b/RAM4K.cmp
+200818-192913 updater:  Creating: ./b/RAM512.tst
+200818-192913 updater:  Creating: ./b/RAM16K.tst
+200818-192913 updater:  Creating: ./b/RAM16K.cmp
+200818-192913 updater:  Creating: ./b/RAM4K.tst
+200818-192913 updater:  Creating: ./b/RAM512.cmp
+200818-192913 updater:  Creating: ./a/Bit.cmp
+200818-192913 updater:  Creating: ./a/RAM64.tst
+200818-192913 updater:  Creating: ./a/Register.cmp
+200818-192913 updater:  Creating: ./a/RAM8.cmp
+200818-192913 updater:  Creating: ./a/PC.tst
+200818-192913 updater:  Creating: ./a/RAM8.tst
+200818-192913 updater:  Creating: ./a/PC.cmp
+200818-192913 updater:  Creating: ./a/RAM64.cmp
+200818-192913 updater:  Creating: ./a/Register.tst
+200818-192913 updater:  Creating: ./a/Bit.tst
+200818-192913 updater:  Made bin/run-tests executable
+200818-192913 updater:  Creating: b/RAM4K.hdl
+200818-192913 updater:  Creating: b/RAM16K.hdl
+200818-192913 updater:  Creating: b/RAM512.hdl
+200818-192913 updater:  Creating: a/Register.hdl
+200818-192913 updater:  Creating: a/Bit.hdl
+200818-192913 updater:  Creating: a/RAM8.hdl
+200818-192913 updater:  Creating: a/RAM64.hdl
+200818-192913 updater:  Creating: a/PC.hdl
+200818-192913 updater:  Updating: updates/README
+200818-192913 updater:  Update installed
+200818-193216 make 
+200818-193216 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-193230 Modified: YjQ5ZTgxM2JhMzUwODhiZTgzMzRmMzE4NGQ3Njc3YWFlOTA5M2EyNCAgLi9hL0JpdC5oZGwK
+200818-193230 make 
+200818-193230 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-193257 Modified: NmMyOTZlZjIwYjkwYjExNDdhYzdhNzBhNzk0OTI3NmIyNDBkY2UxNiAgLi9hL1JBTTguaGRsCg==
+200818-193257 make 
+200818-193257 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-193402 make 
+200818-193402 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-193530 Modified: MWJiNTU0NDY5NDJjYTEyZGZhMzkxMDVlZjBmZDdiNzY2OTE1NzM5OCAgLi9hL1JlZ2lzdGVyLmhk
+bAo=
+200818-193530 make 
+200818-193530 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-204254 make 
+200818-204254 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-204306 make 
+200818-204306 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-204309 make 
+200818-204309 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-204312 make 
+200818-204312 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-210418 Modified: NGU0ODlhZWQ5MzhmMGY0Y2Q1YmYwMjYzNjMyMzgyOWRjNGIwYzhkNCAgLi9hL1JBTTY0LmhkbAo=
+200818-210418 make 
+200818-210418 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-212131 make 
+200818-212131 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-221803 make 
+200818-221803 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-222450 Modified: M2QwNzkyM2MzM2NmOGE4YjljZDMzNTllODhjMmJkZjVjYmYyY2YwMCAgLi9hL1BDLmhkbAo=
+200818-222450 make 
+200818-222450 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-230548 Modified: ZTRiN2Q5MjI4YjM3N2Y2ZmNkMzNkNTM5MzMwZDBjOTk0ZTQyMjMxNSAgLi9iL1JBTTUxMi5oZGwK
+200818-230548 make 
+200818-230548 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-230639 Modified: NGRhMzRlNTJkMWM1NjZmYjkzYmFmMzE4MzA2MjkzMGM0MWFmMmYyZCAgLi9iL1JBTTUxMi5oZGwK
+200818-230639 make 
+200818-230639 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-230841 Modified: ZDQ1YzVmYjM3NWRiMjhhYTgxNmViOGVlZTQxZGU2MTRhNzFkZDkxZCAgLi9iL1JBTTRLLmhkbAo=
+200818-230841 make 
+200818-230841 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-230954 Modified: NjgwNzc0OThjMDE1YTNlNDA2ZTIyNDRlNjVmODdlMzc1OTg4NjllMSAgLi9iL1JBTTE2Sy5oZGwK
+200818-230954 make 
+200818-230954 SVN user: a1785394, repository path: 2020/s2/cs/project03
+200818-231302 Modified: NjMyNGU0NDdkMDE0YmI1OTQ2NmU0ODAxNGJiYjYyMGU3ZGE5NmY3ZSAgLi9iL1JBTTE2Sy5oZGwK
+200818-231302 make 
+200818-231302 SVN user: a1785394, repository path: 2020/s2/cs/project03
